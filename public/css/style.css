@@ -1,0 +1,213 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+/*--------------------------------------------------------------------
+********************************** HEADER ****************************
+--------------------------------------------------------------------*/
+header{
+background-color: #EAC926;
+font-family: 'Roboto',sans-serif;
+display: block;
+
+}
+.burger-menu{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    background: #03264C;
+    margin: auto;
+    border-radius: 3px;
+    color: white;
+
+}
+
+.logo{
+    width: 80%;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    display: block;
+}
+
+.buscador form{
+    
+    width: 50vh;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.buscador p{
+    
+    width: 65vh;
+    margin: auto;
+    margin: 10px;
+   ;
+    
+}
+
+.listas{
+    text-align: center;
+}
+
+.listas ul a{
+    list-style: none;
+    text-decoration: none;
+    color: #03264C ;
+    text-align: center;
+
+}
+
+.listas ul i{
+    color: #03264C;
+}
+
+
+/*--------------------------------------------------------------------
+********************************** MAIN ******************************
+--------------------------------------------------------------------*/
+main{
+    background-color:	#B5B2B2;
+    font-family: 'Roboto',sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    
+
+}
+
+main section article{
+    border-radius: 10px;
+    
+        
+}
+main section img{
+    width: 100%;
+}
+
+.art-productos{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    -webkit-box-shadow: 0px 2px 24px 0px #000000; 
+    box-shadow: 0px 2px 24px 0px #000000;
+    
+    
+    
+}
+.art-productos img{
+    width: 80%;
+}
+
+.art-productos p{
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+
+
+/*--------------------------------------------------------------------
+********************************** FOOTER ******************************
+--------------------------------------------------------------------*/
+
+
+footer{
+    background-color: white;
+    font-family: 'Roboto',sans-serif;
+    text-align: center; 
+}
+
+footer section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+footer  section article{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+
+.iconos-footer i  {
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+
+    color: hsl(211, 92%, 15%);
+    font-size: 60px;
+
+
+   
+    
+}
+
+
+
+
+/*-------------------------------------------------------------------------
+********************************** CLASES *********************************
+--------------------------------------------------------------------------*/
+.titlulares{
+    font-size: 24px;
+
+}
+.precio{
+    font-size: 18px;
+
+}
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+}
+.descripcion{
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------
+********************************** OTROS DATOS ****************************
+---------------------------------------------------------------------------
+
+link de inconos
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" /> 
+
+Paleta de colores
+    Amarillo: #EAC926;
+    Azul: #03264C;
+    Celeste: #1259c3;
+    Gris oscuro: #666;
+    Gris claro: #ebebeb;
+    Verde: #39b54a;
+
+Tamaños Tipográficos
+        Cuerpos de texto: 12px
+        Titulares (Basado en tu última visita/Ofertas): 24px
+        Precios: 18px
+        Descuentos: 16px
+        Descripciones: 16px
+--------------------------------------------------------------------*/
