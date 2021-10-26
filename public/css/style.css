@@ -109,8 +109,43 @@ main section img{
 }
 
 .art-productos p{
-    text-align: left;
+    justify-content: start;
     margin-left: 20px;
+    
+}
+
+.descripcion-producto{
+    height: 20%;
+    padding:5%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+
+
+
+.art-productos div{
+    display: flex;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+
+.camion {
+    display: flex;
+    justify-content: flex-end;
+    ;
+
+} 
+.art-productos div i{
+    
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 4vh;
+    color: #39b54a;
+    border: 2px solid #39b54a;
+    
     
 }
 
@@ -199,12 +234,12 @@ link de inconos
 rel="stylesheet" /> 
 
 Paleta de colores
-    Amarillo: #EAC926;
-    Azul: #03264C;
-    Celeste: #1259c3;
-    Gris oscuro: #666;
-    Gris claro: #ebebeb;
-    Verde: #39b54a;
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
 
 Tamaños Tipográficos
         Cuerpos de texto: 12px
