@@ -56,6 +56,7 @@ display: block;
 
 .listas{
     text-align: center;
+    
 }
 
 .listas ul a{
@@ -63,11 +64,11 @@ display: block;
     text-decoration: none;
     color: #03264C ;
     text-align: center;
-
-}
+    }
 
 .listas ul i{
     color: #03264C;
+    
 }
 
 
@@ -86,16 +87,13 @@ main{
 
 
 
-main section article{
-    border-radius: 10px;
-    
-        
-}
+
 main section img{
     width: 100%;
 }
 
 .art-productos{
+    border-radius: 10px;
     width: 90%;
     background-color: white;
     margin: auto;
@@ -224,8 +222,18 @@ footer  section article{
 }
 
 @media (min-width: 480px) {
-     .art-productos img{
-        width: 45vw
+     .art-productos{
+        width: 20%;
+        
+
+        
+     }
+
+     @media (min-width: 480px){
+         .section-articulos{
+             display: flex;
+         }
+
      }
     
 }
