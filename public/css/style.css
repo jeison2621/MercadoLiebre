@@ -127,7 +127,7 @@ main section img{
 
 .art-productos div{
     display: flex;
-    padding-right: 40px;
+    padding-right: 30px;
     padding-left: 10px;
 }
 
@@ -135,7 +135,7 @@ main section img{
 .camion {
     display: flex;
     justify-content: flex-end;
-    ;
+    
 
 } 
 .art-productos div i{
