@@ -79,7 +79,7 @@ main{
     font-family: 'Roboto',sans-serif;
     width: 100%;
     text-align: center;
-    padding: 5px;
+    padding-bottom: 15px;
     
 
 }
@@ -112,6 +112,7 @@ main section img{
     justify-content: start;
     margin-left: 20px;
     
+    
 }
 
 .descripcion-producto{
@@ -119,7 +120,7 @@ main section img{
     padding:5%;
     display: flex;
     justify-content: space-between ;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;   
 }
 
@@ -127,7 +128,7 @@ main section img{
 
 .art-productos div{
     display: flex;
-    padding-right: 30px;
+    padding-right: 10%;
     padding-left: 10px;
 }
 
@@ -135,6 +136,8 @@ main section img{
 .camion {
     display: flex;
     justify-content: flex-end;
+    
+    
     
 
 } 
@@ -192,8 +195,6 @@ footer  section article{
    
     
 }
-
-
 
 
 /*-------------------------------------------------------------------------
