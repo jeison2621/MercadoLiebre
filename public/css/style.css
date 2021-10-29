@@ -144,13 +144,19 @@ main section img{
 .art-productos div i{
     
     border-radius: 50%;
-    padding: 10px;
-    font-size: 4vh;
+    padding: 5px;
+    font-size: 16px;
     color: #39b54a;
-    border: 2px solid #39b54a;
+    border: 1px solid #39b54a;
+    position: absolute;
+    transition: .5s ease-in-out all;
     
     
 }
+
+register
+
+
 
 
 
@@ -223,11 +229,16 @@ footer  section article{
 
 @media (min-width: 480px) {
      .art-productos{
-        width: 20%;
+        width: 45vh;
         
 
         
      }
+
+     @media (min-width: 769px){
+     .art-productos{
+    width: 22.5vw;
+}
 
      @media (min-width: 480px){
          .section-articulos{
@@ -237,6 +248,11 @@ footer  section article{
      }
     
 }
+
+1 no articule 
+2
+3 a 
+4
 
 
 

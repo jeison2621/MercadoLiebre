@@ -12,6 +12,11 @@ app.get('/',(req,res)=>{
     res.sendFile(ruta)
 })
 
+app.get('/login',(req,res)=>{
+    let ruta = path.resolve(__dirname,'./views/login.html')
+     res.sendFile(ruta)
+ })
+ 
 app.listen(port,()=>{
     console.log("server arriba, port: "+port)
 } )
